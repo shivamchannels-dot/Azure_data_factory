@@ -1,0 +1,13 @@
+id,kpi_category,kpi_name,good_direction_state,Formula
+1,Toptiles_Ghg,GHG_Absolute,1,"IF(Actual<= Target, 0, 1)"
+2,Toptiles_Ghg,GHG_Intensity ,1,"IF(Actual<= Target, 0, 1)"
+3,Toptiles_Energy,Enery_Absolute,1,"IF(Actual<= Target,0,1)"
+4,Toptiles_Energy,Energy_Intensity,1,"IF([Energy_Intensity]<= [EnergyIntensityTarget],0,1)"
+5,Toptiles_Water,Water_Absolute,1,"IF([Water_Intensity]<= [WaterIntensityTarget],0,1)"
+6,Toptiles_Water,Water_Intensity,1,"IF([Water_Intensity]<= [WaterIntensityTarget],0,1)"
+7,Toptiles_MaterialLoss,MaterialLoss_Absolute,1,"IF([MaterialLoss_Intensity]<= [MaterialLossIntensityTarget],0,1)"
+8,Toptiles_MaterialLoss,MaterialLoss_Intensity,1,"IF([MaterialLoss_Intensity]<= [MaterialLossIntensityTarget],0,1)"
+9,Toptiles_Flaring,Flaring_Absolute,1,"IF([Flaring_Actual]  <= [FlaringAnnualTargetAbsoluteValue],0,1)"
+10,Toptiles_Waste,Waste_Absolute,1,"IF([Actual] <= [AnnualTargetAbsoluteValue],0,1)"
+11,Toptiles_Seec_NetCreditdeficit,Seec_NetCreditdeficit_Absolute,1,"IF([NetCreditDeficit>0,1,0)"
+12,Toptiles_Carbon_Neutrality,Carbon_Neutrality_Absolute,1,"IF(actual <= baseline,0,1)"
